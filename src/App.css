@@ -1,0 +1,244 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+form{
+  width:100%;
+  
+  
+}
+
+form input{
+  margin: 2px;
+}
+
+input{
+  padding:7px;
+}
+
+form select{
+  padding:5px;
+  width:100%;
+}
+
+label{
+  font-weight: bold;
+}
+
+a{
+  padding:20px;
+}
+
+#vrtnarstvo{
+  padding:30px;
+  width:auto;
+  height:auto;
+  
+  background-color: beige;
+}
+
+
+#nav{
+  padding:30px;
+  width:auto;
+  height:200px;
+  background-color: aquamarine;
+}
+
+
+#vsiVrtnarji{
+  padding:30px;
+  min-width:auto;
+  height:50%;
+  
+  background-color: bisque;
+}
+
+
+#forma{
+  width:10%;
+  margin-right:0;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #61dafb;
+  padding:20px;
+}
+
+#roze{
+  
+  width:87.5%;
+  margin-right:auto;
+  margin-left:auto;
+  display: inline-block;
+  vertical-align: top;
+  background-color: burlywood;
+  min-height: 700px;
+}
+
+#roze a{
+  display: inline-block;
+  padding: 14px 25px;
+  text-align: center;
+  background-color: #f44336;
+  color: white;
+  margin:10px;
+}
+
+
+#roze a:hover{
+  background-color: #972118;
+}
+
+#container{
+  width:100%;
+}
+
+#slike img{
+  
+  padding:20px;
+  display:inline-block;
+}
+
+#slike span{
+  width:30%;
+  margin-left:0;
+  margin-right:0;
+}
+
+a {
+  background-color: rgb(7, 167, 132);
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 20px;
+  margin-right:10px;
+}
+
+a:hover{
+  background-color: rgb(2, 71, 56);
+}
+
+#glavniNaslov{
+  font-weight: 1000;
+  color:#640801;
+  font-size: 300%;
+}
+
+body{
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+input{
+  border-radius: 10px;
+
+}
+
+button, input[type="submit"]{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+button:hover{
+  background-color: #045f07; /* Green */
+  cursor: pointer;
+}
+
+input[type="submit"]:hover{
+  background-color: #045f07; /* Green */
+  cursor: pointer;
+}
+
+#search{
+  width:20%;
+  padding:10px;
+  margin:20px;
+}
+
+#roze_kosarica{
+  
+  width:100%;
+  margin-right:auto;
+  margin-left:auto;
+  display: inline-block;
+  vertical-align: top;
+  background-color: burlywood;
+  min-height: 700px;
+}
+
+
+
+#vrtnar{
+  width:100%;
+  background-color: bisque;
+  min-height:300px;
+}
+
+#vrtnar li{
+  padding:20px;
+  overflow: hidden;
+}
+
+#roze_kosarica a{
+  display: inline-block;
+  padding: 14px 25px;
+  text-align: center;
+  background-color: #f44336;
+  color: white;
+  margin:10px;
+}
+
+
+#roze_kosarica a:hover{
+  background-color: #972118;
+}
+
+
+#posameznaRoza{
+  margin-left:30px;
+}
+
+#stevec{
+  margin-left: 30px;
+}
